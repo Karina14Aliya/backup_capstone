@@ -104,13 +104,13 @@ main > p {
 .itemCourse {
     text-decoration: none;
     background-color:#f1f1fd;
-    width: 22%;
-    margin: 10px;
+    width: 20%;
+    margin: auto;
     border-radius: 50px;
     text-align: center;
     transition-duration: 300ms;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
-    min-width: 270px;
+    min-width: 260px;
 }
 
 .itemCourse:hover {
@@ -125,13 +125,13 @@ main > p {
 }
 
 .itemCourse > h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700px;
     padding: 0px 30px 10px 30px;
 }
 
 .itemCourse > h5 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700px;
     color: #717BAC;
     padding: 0px 30px;
@@ -149,7 +149,7 @@ main > p {
 }
 
 .date > h6 {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 500;
     color: #909090;
     padding-left: 15px;
@@ -294,6 +294,11 @@ footer {
         line-height: 30px;
         margin: 35px 50px 20px;
         color: #DB7979;
+    }
+
+    .hamburgerBtn > a:hover {
+        color: #EEAF8C;
+        transform: scale(1.02);
     }
 
     .hamburgerBtn > div {
@@ -549,15 +554,50 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         margin: 0px;
-        gap: 50px;
+        gap: 20px;
     }
 
     .itemCourse {
-        min-width: 220px;
+        text-decoration: none;
+        min-width: 240px;
+        height: auto;
+        background-color:#f1f1fd;
+        width: 22%;
+        margin: 20px;
+        border-radius: 34px;
+        text-align: center;
+        justify-content: center;
+        transition-duration: 300ms;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    }
+    
+    .itemCourse:hover {
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+        transform: scale(1.07);
     }
 
-    .date > h6 {
-        font-size: 16px;
+    .itemCourse img {
+        width: 100%;
+        border-radius: 34px;
+        margin-bottom: 20px;
+    }
+    
+    .itemCourse > h3 {
+        font-size: 24px;
+        font-weight: 700px;
+        text-decoration: none;
+        margin-bottom: 16px;
+    }
+    
+    .itemCourse h5 {
+        font-size: 20px;
+        font-weight: 700px;
+        color: #717BAC;
+        margin-bottom: 26px;
+    }
+
+    .date{
+        display: none;
     }
 
 

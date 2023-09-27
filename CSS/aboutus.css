@@ -102,7 +102,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 120px 100px;
+    margin: 120px 20px;
     gap: 30px;
 }
 
@@ -111,8 +111,9 @@ header {
     background-color: #9593FF;
     border-radius: 76px;
     padding: 80px 40px;
-    height: 500px;
+    height: auto;
     width: 46%;
+    
 }
 
 .left > h4 {
@@ -132,17 +133,17 @@ header {
     border-radius: 76px;
     font-size: 22px;
     font-weight: 600;
-    margin-bottom: 32px;
 }
 
 .right {
     background-color: #F5F4FF;
     border-radius: 76px;
     width: 46%;
+    align-items: center;
 }
 
 .right > img {
-    width: 100%;
+    width:90%;
 }
 
 /*  Member Profile */
@@ -387,6 +388,11 @@ footer {
         line-height: 30px;
         margin: 35px 50px 20px;
         color: #DB7979;
+    }
+
+    .hamburgerBtn > a:hover {
+        color: #EEAF8C;
+        transform: scale(1.02);
     }
 
     .hamburgerBtn > div {
@@ -754,8 +760,9 @@ footer {
         align-items: center;
         background-color: #9593FF;
         border-radius: 46px;
-        padding-top: 80px;
+        margin: 50px 100px;
         width: 100%;
+        height: auto;
     }
 
     .left > h4 {
@@ -827,7 +834,7 @@ footer {
 
     .Leader {
         position: absolute;
-        top: 84%;
+        top: 1440px;
     }
 
     .dataProfile > h2 {

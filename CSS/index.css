@@ -173,7 +173,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 50px 50px 100px;
+    margin: 100px 50px;
 }
 
 .itemCourse {
@@ -181,7 +181,7 @@ header {
     min-width: 280px;
     background-color:#f1f1fd;
     width: 22%;
-    margin: 20px;
+    margin: auto;
     border-radius: 50px;
     text-align: center;
     transition-duration: 300ms;
@@ -200,19 +200,18 @@ header {
 }
 
 .itemCourse > h3 {
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700px;
     padding: 0px 30px 10px 30px;
     text-decoration: none;
 }
 
 .itemCourse h6 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700px;
     color: #717BAC;
     padding: 0px 30px 20px 30px;
 }
-
 
 /* Information Section */
 
@@ -243,6 +242,7 @@ header {
     font-weight: 400;
     color: #FFFFFF;
     margin-top: 20px;
+    width: 30%;
 }
 
 .informationSection > a {
@@ -544,6 +544,11 @@ footer {
         line-height: 30px;
         margin: 35px 50px 20px;
         color: #DB7979;
+    }
+
+    .hamburgerBtn > a:hover {
+        color: #EEAF8C;
+        transform: scale(1.02);
     }
 
     .hamburgerBtn > div {
@@ -1060,9 +1065,11 @@ footer {
     }
 
     .titleCaption > h1 {
+        text-align: center;
         font-size: 56px;
         font-weight: 700;
         padding-bottom: 30px;
+        width: auto;
     }
 
     .titleCaption > p {
@@ -1419,7 +1426,7 @@ footer {
         display: flex;
         justify-content: space-between;
         padding: 0px 50px 120px;
-        margin-top: 450px;
+        margin-top: 650px;
         margin-left: 0;
     }
 

@@ -75,10 +75,9 @@ header {
 
 .informationCourse {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 100px 80px;
+    justify-content: space-around;
+    margin: 100px 20px;
+    gap: 30px;
 }
 
 .leftImages {
@@ -86,11 +85,12 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
 
 .leftImages > img {
     margin-bottom: 30px;
-    width: 680px;
+    width: 560px;
 }
 
 .dateInformation {
@@ -100,41 +100,45 @@ header {
 }
 
 .dateInformation > p{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     color: #909090;
     margin-left: 20px;
 }
 
+.rightTitleInformation{
+    width: 48%;
+}
+
 .rightTitleInformation > p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     color: #B3B3B3;
     margin-bottom: 20px;
 }
 
 .rightTitleInformation > h1 {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 .rightTitleInformation > h4 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 2;
     margin-bottom: 50px;
 }
 
 .rightTitleInformation > a {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     background-color: #8B79F9;
     color: #FFFFFF;
     border-radius: 48px;
     text-align: center;
     text-decoration: none;
-    padding: 16px 30px;
+    padding: 10px 20px;
     transition-duration: 200ms;
 }
 
@@ -247,7 +251,7 @@ main {
     text-align: center;
     align-items: center;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #6C73BB;
     margin-left: 20px;
@@ -393,6 +397,11 @@ footer {
         line-height: 30px;
         margin: 35px 50px 20px;
         color: #DB7979;
+    }
+
+    .hamburgerBtn > a:hover {
+        color: #EEAF8C;
+        transform: scale(1.02);
     }
 
     .hamburgerBtn > div {
@@ -709,9 +718,11 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
+    .leftImages {
+        width: 86%;
+    }
 
     .leftImages > img {
         width: 100%;
@@ -724,7 +735,7 @@ footer {
     }
 
     .dateInformation > p{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
         color: #909090;
         margin-left: 20px;
@@ -735,6 +746,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 86%;
     }
 
     .rightTitleInformation > p {
@@ -742,20 +754,21 @@ footer {
     }
 
     .rightTitleInformation > h1 {
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 700;
         margin-bottom: 15px;
     }
 
     .rightTitleInformation > h4 {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         line-height: 2;
         margin-bottom: 30px;
+        text-align: justify;
     }
 
     .rightTitleInformation > a {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 700;
         background-color: #8B79F9;
         color: #FFFFFF;
