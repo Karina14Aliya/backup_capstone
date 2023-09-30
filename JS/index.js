@@ -1,6 +1,6 @@
 // Slide Home Alumni
 
-var slideIndex = 1;
+const slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -28,8 +28,3 @@ function openNav() {
 function closeNav() {
   document.getElementById("sideNav").style.width = "0";
 }
-
-
-
-
-
